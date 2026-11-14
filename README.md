@@ -42,7 +42,7 @@
 <!-- =====================================================
      5) MENU DE NAVIGATION
      "## About" crée #about, "## Tech Stack" crée #tech-stack,
-     "## GitHub Stats" crée #github-stats, etc.
+     "## GitHub Stats" crée #github-stats, "## Contact" crée #contact
      ===================================================== -->
 <div align="center">
   <a href="#about">About</a> ·
@@ -149,29 +149,21 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 <img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
 
 <!-- =====================================================
-     ÉTAPE 4 : SECTION "GITHUB STATS" (version fiable)
-     Les 2 premières cartes sont générées par TON workflow
-     (.github/workflows/profile-cards.yml) et enregistrées dans
-     le dossier profile-summary-card-output de ton dépôt.
-       - nord_dark          : nom du thème (dossier bleu foncé)
-       - 3-stats.svg        : statistiques générales
-       - 2-most-commit-language.svg : langages les plus utilisés
-     Pour changer de thème, remplace "nord_dark" par le nom d'un
-     autre dossier présent dans profile-summary-card-output
-     (par exemple github_dark ou tokyonight).
-     Elles ne s'affichent qu'APRÈS la première exécution du workflow.
+     SECTION "GITHUB STATS"
+     Les 2 premières cartes viennent de ton workflow
+     (.github/workflows/profile-cards.yml). Elles apparaissent
+     APRÈS la première exécution du workflow.
      ===================================================== -->
 ## GitHub Stats
 
 <div align="center">
-  <img width="48%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/profile-summary-card-output/nord_dark/3-stats.svg" alt="GitHub stats" />
-  <img width="48%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/profile-summary-card-output/nord_dark/2-most-commit-language.svg" alt="Most used languages" />
+  <img width="38%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/profile-summary-card-output/nord_dark/3-stats.svg" alt="GitHub stats" />
+  <img width="38%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/profile-summary-card-output/nord_dark/2-most-commit-language.svg" alt="Most used languages" />
 </div>
 
 <br>
 
-<!-- Carte "streak" : série de jours de contributions
-     (couleurs en hexadécimal SANS le "#") -->
+<!-- Carte "streak" : série de jours de contributions -->
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=marinoaidomoan-gif&hide_border=true&background=0D2B5E&ring=1E90FF&fire=4FACFE&currStreakNum=FFFFFF&currStreakLabel=4FACFE&sideNums=FFFFFF&sideLabels=4FACFE&dates=B0C4DE" alt="GitHub streak" />
 </div>
@@ -179,3 +171,27 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 <br>
 
 <img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
+
+<!-- =====================================================
+     ÉTAPE 5 : SECTION "CONTACT"
+     - Email    : le lien "mailto:" ouvre l'application mail
+     - Couleurs : nuances de bleu (comme le reste du profil)
+     ===================================================== -->
+## Contact
+
+<div align="center">
+  <a href="mailto:marinoaidomoan@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D2B5E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://wa.me/2290161147314"><img src="https://img.shields.io/badge/WHATSAPP-1E90FF?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://www.linkedin.com/in/marino-aidomoan-600b323bb/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</div>
+
+<br>
+
+<img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
+
+<!-- =====================================================
+     PIED DE PAGE : vague bleue animée (fichier assets/footer.svg)
+     ===================================================== -->
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/footer.svg" alt="Footer wave" />
+</div>
