@@ -181,7 +181,6 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 
 <div align="center">
   <a href="mailto:marinoaidomoan@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D2B5E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://wa.me/2290161147314"><img src="https://img.shields.io/badge/WHATSAPP-1E90FF?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
   <a href="https://www.linkedin.com/in/marino-aidomoan-600b323bb/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </div>
 
