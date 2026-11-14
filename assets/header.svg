@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =====================================================
+     BANNIÈRE ANIMÉE (100% locale, aucun service externe)
+     - viewBox : taille interne 1000 x 260, elle s'adapte à l'écran
+     - Les 2 vagues bougent grâce à <animateTransform>
+     ===================================================== -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+
+  <!-- Dégradé de fond : du bleu clair au bleu profond -->
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4FACFE"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rectangle de fond -->
+  <rect width="1000" height="260" fill="url(#fond)"/>
+
+  <!-- VAGUE 1 (arrière, plus transparente, plus lente)
+       Le motif se répète tous les 500px : en la décalant de -500px
+       en boucle, l'animation est continue, sans saut visible. -->
+  <path fill="#FFFFFF" fill-opacity="0.25"
+        d="M0 205 Q125 175 250 205 T500 205 T750 205 T1000 205 T1250 205 T1500 205 T1750 205 T2000 205 V260 H0 Z">
+    <animateTransform attributeName="transform" type="translate"
+                      from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- VAGUE 2 (avant, plus visible, plus rapide) -->
+  <path fill="#FFFFFF" fill-opacity="0.45"
+        d="M0 225 Q125 195 250 225 T500 225 T750 225 T1000 225 T1250 225 T1500 225 T1750 225 T2000 225 V260 H0 Z">
+    <animateTransform attributeName="transform" type="translate"
+                      from="-250 0" to="-750 0" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- TON NOM : apparaît en fondu (opacity de 0 à 1 en 1,5 seconde) -->
+  <text x="500" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="54" font-weight="700" fill="#FFFFFF" opacity="0">
+    Marino AÏDOMOAN
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- SOUS-TITRE : apparaît un peu après le nom (begin="0.8s") -->
+  <text x="500" y="160" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="24" font-weight="600" fill="#FFFFFF" opacity="0">
+    Développeur Web &amp; Formateur
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.8s" fill="freeze"/>
+  </text>
+</svg>
