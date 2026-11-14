@@ -17,9 +17,7 @@
   <!-- Rectangle de fond -->
   <rect width="1000" height="260" fill="url(#fond)"/>
 
-  <!-- VAGUE 1 (arrière, plus transparente, plus lente)
-       Le motif se répète tous les 500px : en la décalant de -500px
-       en boucle, l'animation est continue, sans saut visible. -->
+  <!-- VAGUE 1 (arrière, plus transparente, plus lente) -->
   <path fill="#FFFFFF" fill-opacity="0.25"
         d="M0 205 Q125 175 250 205 T500 205 T750 205 T1000 205 T1250 205 T1500 205 T1750 205 T2000 205 V260 H0 Z">
     <animateTransform attributeName="transform" type="translate"
@@ -33,17 +31,17 @@
                       from="-250 0" to="-750 0" dur="6s" repeatCount="indefinite"/>
   </path>
 
-  <!-- TON NOM : apparaît en fondu (opacity de 0 à 1 en 1,5 seconde) -->
+  <!-- TON NOM : apparaît en fondu -->
   <text x="500" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
         font-size="54" font-weight="700" fill="#FFFFFF" opacity="0">
     Marino AÏDOMOAN
     <animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze"/>
   </text>
 
-  <!-- SOUS-TITRE : apparaît un peu après le nom (begin="0.8s") -->
+  <!-- SOUS-TITRE (en anglais) : apparaît un peu après le nom -->
   <text x="500" y="160" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
         font-size="24" font-weight="600" fill="#FFFFFF" opacity="0">
-    Développeur Web &amp; Formateur
+    Full-Stack Web Developer &amp; Trainer
     <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.8s" fill="freeze"/>
   </text>
 </svg>
