@@ -41,8 +41,8 @@
 
 <!-- =====================================================
      5) MENU DE NAVIGATION
-     "## About" crée l'ancre #about, "## Tech Stack" crée
-     #tech-stack, etc.
+     "## About" crée #about, "## Tech Stack" crée #tech-stack,
+     "## GitHub Stats" crée #github-stats, etc.
      ===================================================== -->
 <div align="center">
   <a href="#about">About</a> ·
@@ -60,13 +60,13 @@
 
 <!-- =====================================================
      SECTION "ABOUT"
-     - width="100%" sur <table> : le tableau prend toute la largeur
-     - RAPPEL : aucune balise ni texte ne doit commencer par
-       des espaces dans ce tableau (sinon : bloc de code).
+     RAPPEL : aucune balise ni texte ne doit commencer par
+     des espaces dans ce tableau (il contient du Markdown
+     avec des lignes vides, sinon : bloc de code).
      ===================================================== -->
 ## About
 
-<table width="100%">
+<table>
 <tr>
 <td width="60%" valign="top">
 
@@ -97,12 +97,7 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 <img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
 
 <!-- =====================================================
-     SECTION "TECH STACK"
-     - <table width="100%"> : le tableau occupe toute la largeur
-     - 4 colonnes de 25% chacune
-     - Icônes : skillicons.dev (i = liste, perline = nb par ligne)
-     - Fedora n'existe pas sur skillicons : elle est en badge
-       dans la rangée du bas.
+     SECTION "TECH STACK" (tableau centré)
      ===================================================== -->
 ## Tech Stack
 
@@ -137,8 +132,7 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 </div>
 
 <!-- =====================================================
-     LIGNE DE BADGES pour les outils sans icône
-     - Fedora : logo=fedora affiche le logo dans le badge
+     BADGES pour les outils sans icône (dont Fedora)
      ===================================================== -->
 <div align="center">
   <img src="https://img.shields.io/badge/VB.NET-0D2B5E?style=for-the-badge" alt="VB.NET" />
@@ -148,6 +142,38 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
   <img src="https://img.shields.io/badge/UML-0D2B5E?style=for-the-badge" alt="UML" />
   <img src="https://img.shields.io/badge/GITHUB%20PAGES-0D2B5E?style=for-the-badge" alt="GitHub Pages" />
   <img src="https://img.shields.io/badge/FEDORA%20LINUX-0D2B5E?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora Linux" />
+</div>
+
+<br>
+
+<img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
+
+<!-- =====================================================
+     ÉTAPE 4 : SECTION "GITHUB STATS" (version fiable)
+     Les 2 premières cartes sont générées par TON workflow
+     (.github/workflows/profile-cards.yml) et enregistrées dans
+     le dossier profile-summary-card-output de ton dépôt.
+       - nord_dark          : nom du thème (dossier bleu foncé)
+       - 3-stats.svg        : statistiques générales
+       - 2-most-commit-language.svg : langages les plus utilisés
+     Pour changer de thème, remplace "nord_dark" par le nom d'un
+     autre dossier présent dans profile-summary-card-output
+     (par exemple github_dark ou tokyonight).
+     Elles ne s'affichent qu'APRÈS la première exécution du workflow.
+     ===================================================== -->
+## GitHub Stats
+
+<div align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/profile-summary-card-output/nord_dark/3-stats.svg" alt="GitHub stats" />
+  <img width="48%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/profile-summary-card-output/nord_dark/2-most-commit-language.svg" alt="Most used languages" />
+</div>
+
+<br>
+
+<!-- Carte "streak" : série de jours de contributions
+     (couleurs en hexadécimal SANS le "#") -->
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=marinoaidomoan-gif&hide_border=true&background=0D2B5E&ring=1E90FF&fire=4FACFE&currStreakNum=FFFFFF&currStreakLabel=4FACFE&sideNums=FFFFFF&sideLabels=4FACFE&dates=B0C4DE" alt="GitHub streak" />
 </div>
 
 <br>
