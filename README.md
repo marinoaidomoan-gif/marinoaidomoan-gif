@@ -1,7 +1,5 @@
 <!-- =====================================================
      1) BANNIÈRE ANIMÉE (fichier assets/header.svg)
-     Si ta branche principale ne s'appelle pas "main",
-     remplace "main" dans l'URL par le nom de ta branche.
      ===================================================== -->
 <div align="center">
   <img width="100%" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/header.svg" alt="Marino AÏDOMOAN banner" />
@@ -44,7 +42,7 @@
 <!-- =====================================================
      5) MENU DE NAVIGATION
      "## About" crée l'ancre #about, "## Tech Stack" crée
-     #tech-stack, etc. (minuscules, tirets à la place des espaces)
+     #tech-stack, etc.
      ===================================================== -->
 <div align="center">
   <a href="#about">About</a> ·
@@ -62,15 +60,13 @@
 
 <!-- =====================================================
      SECTION "ABOUT"
-     ATTENTION : dans ce tableau, AUCUNE balise ni texte
-     ne doit commencer par des espaces. Sinon GitHub le
-     transforme en bloc de code et casse le tableau.
-     Les lignes vides dans les <td> sont voulues : elles
-     permettent d'utiliser le gras et les listes Markdown.
+     - width="100%" sur <table> : le tableau prend toute la largeur
+     - RAPPEL : aucune balise ni texte ne doit commencer par
+       des espaces dans ce tableau (sinon : bloc de code).
      ===================================================== -->
 ## About
 
-<table>
+<table width="100%">
 <tr>
 <td width="60%" valign="top">
 
@@ -87,8 +83,9 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 
 - Web Development
 - Software Engineering
+- Database Management
 - Networking
-- Programming (C++, Java, PHP)
+- Programming (C, C++, Java, Python, PHP)
 - Web Training & Teaching
 
 </td>
@@ -97,5 +94,62 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 
 <br>
 
-<!-- Séparateur bleu après la section -->
+<img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
+
+<!-- =====================================================
+     SECTION "TECH STACK"
+     - <table width="100%"> : le tableau occupe toute la largeur
+     - 4 colonnes de 25% chacune
+     - Icônes : skillicons.dev (i = liste, perline = nb par ligne)
+     - Fedora n'existe pas sur skillicons : elle est en badge
+       dans la rangée du bas.
+     ===================================================== -->
+## Tech Stack
+
+<div align="center">
+  <table align="center">
+    <tr>
+      <!-- ===== EN-TÊTES DES COLONNES ===== -->
+      <th align="center">Frontend</th>
+      <th align="center">Backend &amp; Languages</th>
+      <th align="center">Databases</th>
+      <th align="center">Tools &amp; Infra</th>
+    </tr>
+    <tr>
+      <!-- ===== COLONNE 1 : FRONTEND ===== -->
+      <td align="center" valign="top">
+        <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,bootstrap&perline=3&theme=dark" alt="Frontend technologies" />
+      </td>
+      <!-- ===== COLONNE 2 : BACKEND & LANGAGES ===== -->
+      <td align="center" valign="top">
+        <img src="https://skillicons.dev/icons?i=php,java,cpp,c,python,ts,nodejs,nestjs&perline=3&theme=dark" alt="Backend and languages" />
+      </td>
+      <!-- ===== COLONNE 3 : BASES DE DONNÉES ===== -->
+      <td align="center" valign="top">
+        <img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,mongodb&perline=2&theme=dark" alt="Databases" />
+      </td>
+      <!-- ===== COLONNE 4 : OUTILS & INFRA ===== -->
+      <td align="center" valign="top">
+        <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,figma,wordpress,vercel,windows&perline=3&theme=dark" alt="Tools and infrastructure" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- =====================================================
+     LIGNE DE BADGES pour les outils sans icône
+     - Fedora : logo=fedora affiche le logo dans le badge
+     ===================================================== -->
+<div align="center">
+  <img src="https://img.shields.io/badge/VB.NET-0D2B5E?style=for-the-badge" alt="VB.NET" />
+  <img src="https://img.shields.io/badge/TYPEORM-0D2B5E?style=for-the-badge" alt="TypeORM" />
+  <img src="https://img.shields.io/badge/WAMP-0D2B5E?style=for-the-badge" alt="WAMP" />
+  <img src="https://img.shields.io/badge/THUNDER%20CLIENT-0D2B5E?style=for-the-badge" alt="Thunder Client" />
+  <img src="https://img.shields.io/badge/UML-0D2B5E?style=for-the-badge" alt="UML" />
+  <img src="https://img.shields.io/badge/GITHUB%20PAGES-0D2B5E?style=for-the-badge" alt="GitHub Pages" />
+  <img src="https://img.shields.io/badge/FEDORA%20LINUX-0D2B5E?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora Linux" />
+</div>
+
+<br>
+
 <img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
