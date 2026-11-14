@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =====================================================
+     PIED DE PAGE : vague bleue animée (100% locale)
+     Même principe que la bannière : le motif se répète tous
+     les 500px, on le décale de 500px en boucle.
+     ===================================================== -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160">
+
+  <!-- VAGUE 1 (arrière, plus claire, plus lente) -->
+  <path fill="#4FACFE" fill-opacity="0.5"
+        d="M0 50 Q125 20 250 50 T500 50 T750 50 T1000 50 T1250 50 T1500 50 T1750 50 T2000 50 V160 H0 Z">
+    <animateTransform attributeName="transform" type="translate"
+                      from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- VAGUE 2 (avant, bleu plus foncé, plus rapide) -->
+  <path fill="#1565C0" fill-opacity="0.85"
+        d="M0 75 Q125 45 250 75 T500 75 T750 75 T1000 75 T1250 75 T1500 75 T1750 75 T2000 75 V160 H0 Z">
+    <animateTransform attributeName="transform" type="translate"
+                      from="-250 0" to="-750 0" dur="6s" repeatCount="indefinite"/>
+  </path>
+</svg>
