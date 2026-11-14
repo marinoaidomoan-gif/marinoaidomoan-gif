@@ -1,0 +1,31 @@
+# ===== Workflow qui génère tes cartes de statistiques GitHub =====
+name: GitHub-Profile-Summary-Cards
+
+on:
+  # Se lance automatiquement tous les jours à minuit (UTC)
+  schedule:
+    - cron: "0 0 * * *"
+  # Permet de le lancer à la main depuis l'onglet Actions
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    # Autorise l'Action à écrire dans ton dépôt (pour ajouter les cartes)
+    permissions:
+      contents: write
+    steps:
+      # Récupère le contenu de ton dépôt
+      - uses: actions/checkout@v4
+
+      # Génère les cartes (stats, langages, etc.) pour ton compte
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # Ton pseudo GitHub (pris automatiquement depuis le dépôt)
+          USERNAME: ${{ github.repository_owner }}
+          # Branche où les cartes sont enregistrées
+          BRANCH_NAME: "main"
+          # Décalage horaire du Bénin : UTC+1
+          UTC_OFFSET: 1
