@@ -149,6 +149,29 @@ I am also part of **M2J TECHNOLOGY**, an initiative that trains people in web de
 <img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
 
 <!-- =====================================================
+     ÉTAPE 6 : SECTION "PROJECTS"
+     Tableau Markdown simple : une ligne par projet.
+     - Pour ajouter un lien, remplace le nom du projet par :
+       [**Nom**](https://github.com/marinoaidomoan-gif/NOM-DU-DEPOT)
+       (uniquement pour les dépôts PUBLICS)
+     - Le "—" de la colonne Stack du projet maïs est à remplacer
+       par les technologies utilisées.
+     ===================================================== -->
+## Projects
+
+| Project | What it is | Stack | Context |
+|---------|------------|-------|---------|
+| **SuperStock** | Stock management app: products and categories, stock movements, low-stock alerts, inventory counts, dashboard and role-based access | React, NestJS, TypeScript, PostgreSQL, TypeORM, Tailwind CSS | Final project, solo (in progress) |
+| **Memoir Management Platform** | Web platform to manage academic memoirs and theses: submission, search, comments | PHP, MySQL, MVC | Team project, GASA Formation |
+| **Library Management App** | Public catalog with search, protected admin area, dashboard with overdue loans | PHP, MySQL, JavaScript, HTML/CSS | Pair project |
+| **M2J Web Training Program** | 16-session web development program for beginners | HTML, CSS, JavaScript, Git/GitHub | M2J TECHNOLOGY |
+
+<br>
+
+<img width="100%" height="4" src="https://raw.githubusercontent.com/marinoaidomoan-gif/marinoaidomoan-gif/main/assets/divider.svg" alt="divider" />
+
+
+<!-- =====================================================
      SECTION "GITHUB STATS"
      Les 2 premières cartes viennent de ton workflow
      (.github/workflows/profile-cards.yml). Elles apparaissent
